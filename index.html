@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./styles.css" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Сайт-визитка</title>
+  </head>
+  <body>
+    <!-- Шапка сайта -->
+    <header class="navbar">
+      <nav>
+        <ul class="navbar-links">
+          <li>
+            <a href="#prj">Проекты</a>
+          </li>
+
+          <li>
+            <a href="#skls">Умения</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Основное содержимое -->
+    <main>
+      <!-- Раздел "О себе" -->
+      <article class="descrition-me">
+        <!-- Ава и краткое описание -->
+        <section class="about">
+          <img src="Accets/Ia.jpg" alt="Моя ава" class="rounded-img" />
+          <div class="about-me">
+            <h1>Зубенок Руслан</h1>
+            <div class="dop-info">
+              <p>Студент МТУСИ</p>
+              <p>Факультет: ИТ</p>
+              <p>Направление: 09.03.01</p>
+              <p>Год поступления: 2024</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="hobby">
+          <h2>Мои хобби:</h2>
+          <ol>
+            <li>Чтение книг</li>
+            <li>Занятие спортом</li>
+            <li>Программирование</li>
+          </ol>
+        </section>
+      </article>
+
+      <!-- Проекты -->
+      <article class="projects" id="prj">
+        <h2>Мои Проекты:</h2>
+        <div class="cards">
+          <section class="card">
+            <h3>Конвертер величин</h3>
+            <img src="Accets/Converter.png" alt="Скрин конвертера" />
+            <div class="description-proj">
+              <p>
+                Мой школьный проект, созданный на основе WPF. Предназначен для
+                преобразования величин в другие.
+              </p>
+            </div>
+            <div class="card-link">
+              <a
+                href="https://github.com/JuniRus/ValueConverter"
+                target="_blank"
+                >Ссылка на GitHub</a
+              >
+            </div>
+          </section>
+
+          <section class="card">
+            <h3>Ежедневник</h3>
+            <img src="Accets/Dirary.png" alt="Скрин ежедневника" />
+            <div class="description-proj">
+              <p>
+                Мой первый проект приложения, созданного на технологии WinWorms.
+              </p>
+            </div>
+            <div class="card-link">
+              <a
+                href="https://github.com/JuniRus/ValueConverter"
+                target="_blank"
+                >Ссылка на GitHub</a
+              >
+            </div>
+          </section>
+
+          <section class="card">
+            <h3>Тест на знания</h3>
+            <img src="Accets/Test.png" alt="Скрин теста" />
+            <div class="description-proj">
+              <p>
+                Мой первый проект приложения, созданного на технологии WinWorms.
+              </p>
+
+              <p>Предназначен для проверки общих знаний в сфере IT.</p>
+            </div>
+
+            <div class="card-link">
+              <a
+                href="https://github.com/JuniRus/ValueConverter"
+                target="_blank"
+                >Ссылка на GitHub</a
+              >
+            </div>
+          </section>
+        </div>
+      </article>
+
+      <!-- Мои умения -->
+      <article class="skills" id="skls">
+        <h2>Мои Умения</h2>
+
+        <section class="table-skills">
+          <div class="hard-skills">
+            <h3>Hard-skills</h3>
+            <ul>
+              <li>Знание C# 8.0</li>
+              <li>Умение обращаться с Git</li>
+              <li>Знание принципов SOLID</li>
+              <li>Разработка декстопных приложений на WPF/WInForms</li>
+            </ul>
+          </div>
+
+          <div class="soft-skills">
+            <h3>Soft-skills</h3>
+            <ul>
+              <li>Ответственность</li>
+              <li>Целеустремлённость</li>
+              <li>Любознательность</li>
+              <li>Умение работать в команде</li>
+            </ul>
+          </div>
+        </section>
+      </article>
+    </main>
+
+    <footer class="footer-bar">
+      <ul class="footer-links">
+        <li>
+          <a href="https://vk.com/junirus" target="_blank">Мой ВК</a>
+        </li>
+
+        <li>
+          <a href="https://github.com/JuniRus" target="_blank">Мой GitHub</a>
+        </li>
+      </ul>
+    </footer>
+  </body>
+</html>
